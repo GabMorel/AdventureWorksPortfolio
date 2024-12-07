@@ -7,7 +7,7 @@ O primeiro passo foi fazer uma análise exploratória de dados, utilizando SQL.
 <br><br>
 
 ## Análise exploratória de dados
-<img align="right" width="400"  src="https://github.com/GabMorel/AdventureWorksPortfolio/blob/main/IMAGENS/InternetSalesDiagram.jpg?raw=true">
+<img align="right" width="355"  src="https://github.com/GabMorel/AdventureWorksPortfolio/blob/main/IMAGENS/InternetSalesDiagram.jpg?raw=true">
 Através do SQL, iniciou-se o projeto com o estudo do diagrama, onde “FactInternetSales” era a tabela FATO. A partir disso, explorou-se cada tabela, coluna e tipos de informações presentes nesse banco de dados, até a devida identificação de componentes importantes para o desenvolvimento da análise: <br><br>
 
 - Tabela fato, onde será desenvolvido todos os cálculos e medidas que embasam os dados aqui apresentados. <br>
@@ -15,7 +15,9 @@ Através do SQL, iniciou-se o projeto com o estudo do diagrama, onde “FactInte
 - Tabela de clientes e de território, para mapeamento das vendas. <br>
 - Tabela de datas, para devido relacionamento das vendas por período. <br>
 
-<br><br><br><br>
+
+<br><br><br><br><br>
+
 
 ## Análise de Produtos Vendidos
 <img align="left" width="400"  src="https://github.com/GabMorel/AdventureWorksPortfolio/blob/main/IMAGENS/ETLProduct.jpg?raw=true">
