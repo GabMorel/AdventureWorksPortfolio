@@ -75,12 +75,16 @@ Através da implementação do Drill Through, foi possível especificar a import
 
 ## Conclusão do Projeto
   <img align="right" width="500" src="https://github.com/GabMorel/AdventureWorksPortfolio/blob/main/IMAGENS/SalesAnalysis.jpg?raw=true">
-O Power BI nos permite analisar e expor dados de forma dinâmica e limpa, tornando-se um dos melhores programas com este intuito. Além disso, podemos executar medidas utilizando DAX, gerando cálculos personalizados que são importantes para a análise e amostragem de dados.<br>
-Utilizando os dados coletados, foi possível desenvolver um dashboard que evidencie os principais aspectos das vendas da empresa AdventureWorks, entre os períodos de dezembro de 2010 a janeiro de 2014. Neste projeto, foi priorizado as seguintes informações, contidas no dashboard: <br><br>
+  Após executar a análise exploratória, identificar os dados a serem utilizados e aperfeiçoar a análise utilizando consultas através do SQL, os dados foram carregados para o Power BI, programa utilizado para elaborar a visualização dos dados. Ao fazer o carregamento, filtragem e demais limpezas necessárias nos dados, deu-se início a criação.<br>
+<br>
+Com essa análise, foi possível evidenciar o aumento de vendas que a organização teve pela internet e o potencial crescimento que sucederá nos anos seguintes, bem como os períodos com mais vendas e o detalhamento de cada categoria, produto e país. <br><br>
 
+<br>
 
-
-<br><br>
+<a href="https://app.powerbi.com/view?r=eyJrIjoiZGUwNzQ2NmYtOTJkOS00NDhkLWIwNjQtMWZjZmY1MGY2NzRkIiwidCI6IjJhOGY2ZjdiLWNkNjktNDdmMy1hMWVmLWZlZWYyMGRjNmY5MCJ9" target="_blank">Clique aqui</a> e acesse o a solução desenvolvida para a empresa AdventureWorks.
+<br>
+<a href="https://github.com/GabMorel/AdventureWorksPortfolio/tree/main/POWERBI" target="_blank">Clique aqui</a> e acesse o arquivo .pbix no Github.
+<br>
 
 ## Ferramentas e linguagens utilizadas
 <div style="display: inline_block">
