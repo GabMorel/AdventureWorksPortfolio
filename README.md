@@ -49,8 +49,8 @@ Concluo que, o SQL foi vital para o desenvolvimento deste projeto desde o primei
 
 <br>
 
-## Dashboard Power BI
-<img align="right" width="500"  src="https://github.com/GabMorel/AdventureWorksPortfolio/blob/main/IMAGENS/SalesAnalysis.jpg?raw=true">
+## Dashboard - Power BI
+  <img align="right" width="500" src="https://github.com/GabMorel/AdventureWorksPortfolio/blob/main/IMAGENS/TooltipDetails.jpg?raw=true">
 O Power BI nos permite analisar e expor dados de forma dinâmica e limpa, tornando-se um dos melhores programas com este intuito. Além disso, podemos executar medidas utilizando DAX, gerando cálculos personalizados que são importantes para a análise e amostragem de dados.<br>
 Utilizando os dados coletados, foi possível desenvolver um dashboard que evidencie os principais aspectos das vendas da empresa AdventureWorks, entre os períodos de dezembro de 2010 a janeiro de 2014. Neste projeto, foi priorizado as seguintes informações, contidas no dashboard: <br><br>
 
@@ -65,11 +65,20 @@ Utilizando os dados coletados, foi possível desenvolver um dashboard que eviden
 
 <br>
 
-## Análise de Produtos Vendidos
-<img align="left" width="400"  src="https://github.com/GabMorel/AdventureWorksPortfolio/blob/main/IMAGENS/ETLProduct.jpg?raw=true">
-Ao identificar a tabela de produtos (DimProduct) e fazer uma relação com os produtos postos na tabela fato (FactInternetSales), notou-se que muitos produtos registrados no banco de dados da organização ainda não haviam sido vendidos. Assim sendo, concluiu-se que não se faria necessário manter estes produtos para a execução da presente análise. <br><br>
+## Drill Through - Power BI
+<img align="left" width="500"  src="https://github.com/GabMorel/AdventureWorksPortfolio/blob/main/IMAGENS/drillthrough.jpg?raw=true">
+Ao longo do desenvolvimento deste dashboard, notou-se a necessidade de haver um detalhamento sobre cada produto, contendo a quantidade vendida, valor unitário, receita obtida, custo do produto e margem de lucro, com o objetivo de proporcionar uma análise mais detalhada e localizada sobre as vendas. <br><br>
+Através da implementação do Drill Through, foi possível especificar a importância de cada um dos produtos no resultado das vendas destes períodos, gerando insights mais assertivos sobre onde a empresa deve focalizar seus esforços.
 
-Para isso, elaborou-se uma consulta utilizando as cláusulas SELECT DISTINCT, INNER JOIN e WHERE para que fosse gerada uma nova tabela de produtos, constando APENAS os produtos presentes na tabela fato, ou seja, apenas os produtos já vendidos.
+<br><br>
+
+
+## Conclusão do Projeto
+  <img align="right" width="500" src="https://github.com/GabMorel/AdventureWorksPortfolio/blob/main/IMAGENS/SalesAnalysis.jpg?raw=true">
+O Power BI nos permite analisar e expor dados de forma dinâmica e limpa, tornando-se um dos melhores programas com este intuito. Além disso, podemos executar medidas utilizando DAX, gerando cálculos personalizados que são importantes para a análise e amostragem de dados.<br>
+Utilizando os dados coletados, foi possível desenvolver um dashboard que evidencie os principais aspectos das vendas da empresa AdventureWorks, entre os períodos de dezembro de 2010 a janeiro de 2014. Neste projeto, foi priorizado as seguintes informações, contidas no dashboard: <br><br>
+
+
 
 <br><br>
 
