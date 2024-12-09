@@ -31,41 +31,46 @@ Para isso, elaborou-se uma consulta utilizando as cláusulas SELECT DISTINCT, IN
 Analisando a variação de novos clientes entre períodos, é possível identificar em 2013, um crescimento mensal muito acima da variação de 2012, sendo necessário aprofundar a análise e identificar de onde está vindo este grande crescimento de novos clientes.
 
 <br><br>
-## Variação de novos clientes entre períodos
-<img align="right" width="500" height="320" src="https://github.com/BruceFonseca/AdventureWorks2022/blob/main/imagens/AdventureWorks%20-%20Novos%20Clientes%20Delta.png?raw=true">
-Analisando a variação de novos clientes, quando comparados com o mesmo período/mês do ano anterior, decidimos agrupar esta variação por região/país para identificar se houve crescimento. 
-Filtramos apenas o ano de 2013, pois foi o período com maiores taxas de crescimentos de novos clientes, o que nos permitiu concluir que: <br><br>
-- Canadá teve o maior crescimento percentual entre todos os países - aproximadamente 623% <br>
-- Estados Unidos teve o maior crescimento cumulativo de clientes - aproximadamente 5050 <br>
-- Apenas os Estados Unidos tiveram um crescimento maior que todos países da Europa juntos, sendo a América do Norte o principal mercado de atuação da empresa.
-- Todos países europeus dobraram ou superaram sua base de novos clientes. <br>
-- Austrália, apesar de não ter um crescimento comparável com Europa e América do Norte, aumentou sua base de novos clientes em quase 50%, sendo um ótimo resultado em 2013. <br>
 
+## Análises diversas utilizando CTE
+<img align="right" width="500" src="https://github.com/GabMorel/AdventureWorksPortfolio/blob/main/IMAGENS/analysiswithcte.jpg?raw=true">
+Ao longo da análise com o SQL, foi de suma importância a utilização de CTE (Common Table Expressions), que acompanhou o processo analítico por todo o percurso. <br>
+A CTE foi importante para o processo desenvolvido, uma vez que este recurso proporcionou clareza e organização, melhorando as estruturas das consultas. Também foi vital, pois devido ao alto número de consultas e testes feitos, proporcionou grande recursividade ao evitar repetições de códigos, evitar divisão de consultas e melhora na legibilidade de todo o processo analítico no SQL, onde foi possível concluir: <br><br>
+
+- 63% da receita em vendas está dividida entre Estados Unidos e Australia, sendo 32% para EUA e 31% para AUS.
+- A categoria de acessórios sendo a com mais ordens de compras, com 36 mil ordens, sendo também a com maior margem de lucro (62,6%), representando um total de $700,76 mil em valor de vendas.
+- A categoria com o maior valor de vendas, sendo a de bicicletas, com um total de $28,32 Milhões.
 <br>
-<a href="https://github.com/BruceFonseca/AdventureWorks2022/blob/main/SQL/AdventureWorks%20-%20Novos%20Clientes%20Delta%202013.sql" target="_blank">Clique aqui</a> e acesse o script SQL no Github.
-
-<br><br>
 
 ## Conclusão técnica SQL
-Com o SQL, podemos analisar, extrair, manipular e exibir os dados de uma base de dados de uma forma simples e rápida, apenas conectando direto na fonte dos dados. Porém, não é uma ferramenta dinâmica em com abordagem visual, pois cada vez que pricisa ver os dados de uma forma diferente, precisa reescrever o comando SQL para extrair os dados da forma que gostaria, porem os dados sempre serão exibidos em formato de tabela, deixando sua análise menos dinamica do que um dashboard, por exemplo.
+Através do SQL, foi possível extrair, limpar, manipular e analisar todos os dados apresentados de forma clara, com facilidade e agilidade devido as consultas práticas que a plataforma oferece. Porém, não é melhor forma para apresentar uma visualização de dados eficiente ao cliente.
 
-A minha conclusão é que o SQL é sempre uma linguagem muito importante e deve ser utilizada para analisar um banco de dados antes de escolher outra ferramenta para análise dos dados, como o Power BI por exemplo. Ou seja, valide as informações no SQL e só depois considere outras ferramentas de acordo com a necessidade da empresa ou projeto que estiver atuando.
-Não existe uma ferramenta melhor que a outra, existe ferramentas adequadas as necessidades apresentadas em cada projeto de dados.
+Concluo que, o SQL foi vital para o desenvolvimento deste projeto desde o primeiro contato com o banco de dados até a finalização do Dashboard. Todas as informações foram conferidas e reconferidas através do SQL, em consonância com o Power BI. Essa junção provou que ambas as ferramentas, utilizadas adequadamente dentro do limite de suas operações, são essenciais para o desenvolvimento de um bom projeto analítico.
 
-<br><br>
+<br>
 
 ## Dashboard Power BI
-<img align="right" width="500"  src="https://github.com/BruceFonseca/AdventureWorks2022/blob/main/imagens/Captura%20de%20tela%202023-12-03%20121514.png?raw=true">
-Seguindo a idéia que SQL não é a melhor ferramenta para uma análise dinâmica e visual de informações, desenvolvi um dashboard focado na análise dos clientes novos e recorrentes da mesma base de dados AdventureWorks.
-Como o Power BI permite análises dinâmicas e visuais de forma simples, escrevendo menos código DAX e permitindo o usuário total interação com a ferramenta, fiz uma análise exploratória na quantidade e receira entre novos e recoreente.<br>
-Com esta análise, chegamos as seguintes conclusões:<br>
- - A maioria dos clientes a partir de 2013 é novo. <br>
- - Além da quantidade de clientes novos, a receita trazida por clientes novos também é a maior fatia do total.<br>
- - Os clientes novos não são a maioria para todos países e períodos. Por isso o Power BI é uma ferramenta de extrema importância, pois permite o usuário final fazer seus filtros e ter análises de forma dinâmica.
-<br><br>
-<a href="https://app.powerbi.com/view?r=eyJrIjoiNWJjODBmOTAtYmNhMy00YjdmLTk5ZDMtMDc4NGI4NDY3YzJmIiwidCI6IjQxNGU0N2Q2LTVhNGUtNDkzZS05OWJkLTUzMTYwZjJhYWY2ZiJ9" target="_blank">Clique aqui</a> e acesse o a solução desenvolvida para a empresa AdventureWorks.
+<img align="right" width="500"  src="https://github.com/GabMorel/AdventureWorksPortfolio/blob/main/IMAGENS/SalesAnalysis.jpg?raw=true">
+O Power BI nos permite analisar e expor dados de forma dinâmica e limpa, tornando-se um dos melhores programas com este intuito. Além disso, podemos executar medidas utilizando DAX, gerando cálculos personalizados que são importantes para a análise e amostragem de dados.<br>
+Utilizando os dados coletados, foi possível desenvolver um dashboard que evidencie os principais aspectos das vendas da empresa AdventureWorks, entre os períodos de dezembro de 2010 a janeiro de 2014. Neste projeto, foi priorizado as seguintes informações, contidas no dashboard: <br><br>
+
+- Número de ordens, total de vendas e margem de lucro.
+- Quantidade vendida por categoria (Accessories, Bikes, clothing).
+- Receita por categoria (Accessories, Bikes, clothing).
+- Quantidade vendida por mês e categoria.
+- Quantidade vendida por país e categoria.			
+- Receita por país e categoria.
+- Tooltip com espelhamento entre quantidade vendida e receita obtida.
+- Drill through com detalhamento de pedidos.
+
 <br>
-<a href="https://github.com/BruceFonseca/AdventureWorks2022/tree/main/POWERBI" target="_blank">Clique aqui</a> e acesse o arquivo .pbix no Github.
+
+## Análise de Produtos Vendidos
+<img align="left" width="400"  src="https://github.com/GabMorel/AdventureWorksPortfolio/blob/main/IMAGENS/ETLProduct.jpg?raw=true">
+Ao identificar a tabela de produtos (DimProduct) e fazer uma relação com os produtos postos na tabela fato (FactInternetSales), notou-se que muitos produtos registrados no banco de dados da organização ainda não haviam sido vendidos. Assim sendo, concluiu-se que não se faria necessário manter estes produtos para a execução da presente análise. <br><br>
+
+Para isso, elaborou-se uma consulta utilizando as cláusulas SELECT DISTINCT, INNER JOIN e WHERE para que fosse gerada uma nova tabela de produtos, constando APENAS os produtos presentes na tabela fato, ou seja, apenas os produtos já vendidos.
+
 <br><br>
 
 ## Ferramentas e linguagens utilizadas
