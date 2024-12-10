@@ -27,10 +27,9 @@ Para isso, elaborou-se uma consulta utilizando as cláusulas SELECT DISTINCT, IN
 
 <br>
 <a href="https://github.com/GabMorel/AdventureWorksPortfolio/blob/main/SQL/ProductETL.sql" target="_blank">Clique aqui</a> e acesse o script SQL no Github.
-<br><br>
-Analisando a variação de novos clientes entre períodos, é possível identificar em 2013, um crescimento mensal muito acima da variação de 2012, sendo necessário aprofundar a análise e identificar de onde está vindo este grande crescimento de novos clientes.
 
-<br><br>
+<br><br><br><br>
+
 
 ## Análises diversas utilizando CTE
 <img align="right" width="500" src="https://github.com/GabMorel/AdventureWorksPortfolio/blob/main/IMAGENS/analysiswithcte.jpg?raw=true">
