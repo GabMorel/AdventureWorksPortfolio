@@ -81,7 +81,7 @@ Com essa análise, foi possível evidenciar o aumento de vendas que a organizaç
 
 <br>
 
-<a href="https://app.powerbi.com/view?r=eyJrIjoiZGUwNzQ2NmYtOTJkOS00NDhkLWIwNjQtMWZjZmY1MGY2NzRkIiwidCI6IjJhOGY2ZjdiLWNkNjktNDdmMy1hMWVmLWZlZWYyMGRjNmY5MCJ9" target="_blank">Clique aqui</a> e acesse o a solução desenvolvida para a empresa AdventureWorks.
+<a href="https://app.powerbi.com/view?r=eyJrIjoiNjVlZDMxMzUtMDA2ZS00YWM4LTliOWMtMTllZmE5Nzk2MzM2IiwidCI6IjJhOGY2ZjdiLWNkNjktNDdmMy1hMWVmLWZlZWYyMGRjNmY5MCJ9" target="_blank">Clique aqui</a> e acesse o a solução desenvolvida para a empresa AdventureWorks.
 <br>
 <a href="https://github.com/GabMorel/AdventureWorksPortfolio/tree/main/POWERBI" target="_blank">Clique aqui</a> e acesse o arquivo .pbix no Github.
 <br>
