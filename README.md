@@ -72,14 +72,13 @@ Através da implementação do Drill Through, foi possível especificar a import
 
 <br><br>
 
-
 ## Conclusão do Projeto
   <img align="right" width="500" src="https://github.com/GabMorel/AdventureWorksPortfolio/blob/main/IMAGENS/SalesAnalysis.jpg?raw=true">
   Após executar a análise exploratória, identificar os dados a serem utilizados e aperfeiçoar a análise utilizando consultas através do SQL, os dados foram carregados para o Power BI, programa utilizado para elaborar a visualização dos dados. Ao fazer o carregamento, filtragem e demais limpezas necessárias nos dados, deu-se início a criação.<br>
 <br>
 Com essa análise, foi possível evidenciar o aumento de vendas que a organização teve pela internet e o potencial crescimento que sucederá nos anos seguintes, bem como os períodos com mais vendas e o detalhamento de cada categoria, produto e país. <br><br>
 
-<br>
+<br><br>
 
 <a href="https://app.powerbi.com/view?r=eyJrIjoiNjVlZDMxMzUtMDA2ZS00YWM4LTliOWMtMTllZmE5Nzk2MzM2IiwidCI6IjJhOGY2ZjdiLWNkNjktNDdmMy1hMWVmLWZlZWYyMGRjNmY5MCJ9" target="_blank">Clique aqui</a> e acesse o a solução desenvolvida para a empresa AdventureWorks.
 <br>
