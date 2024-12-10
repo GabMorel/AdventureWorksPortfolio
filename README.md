@@ -16,7 +16,7 @@ Através do SQL, iniciou-se o projeto com o estudo do diagrama, onde “FactInte
 - Tabela de datas, para devido relacionamento das vendas por período. <br>
 
 
-<br><br><br><br><br>
+<br><br><br><br><br><br>
 
 
 ## Análise de Produtos Vendidos
@@ -28,7 +28,7 @@ Para isso, elaborou-se uma consulta utilizando as cláusulas SELECT DISTINCT, IN
 <br>
 <a href="https://github.com/GabMorel/AdventureWorksPortfolio/blob/main/SQL/ProductETL.sql" target="_blank">Clique aqui</a> e acesse o script SQL no Github.
 
-<br><br><br><br>
+<br><br><br><br><br><br>
 
 
 ## Análises diversas utilizando CTE
